@@ -6,7 +6,7 @@ module Mail.Hailgun.MailgunApi
 import           Mail.Hailgun.Internal.Data
 
 mailgunApiPrefix :: String
-mailgunApiPrefix = "https://api.mailgun.net/v2"
+mailgunApiPrefix = "https://api.eu.mailgun.net/v2"
 
 mailgunApiPrefixContext :: HailgunContext -> String
 mailgunApiPrefixContext context = mailgunApiPrefix ++ "/" ++ hailgunDomain context
